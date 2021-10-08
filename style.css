@@ -1,0 +1,55 @@
+body
+{
+    background-size: cover;
+}
+
+.heading
+{
+    width:100%;
+    margin-top: 0px;
+    font-size: 23px;
+}
+
+.note
+{
+    font-size: 15px;
+    color: black;
+}
+
+.div_speed
+{
+    float:center;
+}
+
+.div_speed_image,.div_volume_image
+{
+    width: 200px;
+    border-radius: 100px;
+}
+
+
+#speed,#volume
+{
+    font-size: 23px;
+    margin: 15px;
+}
+
+canvas
+{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes example
+{
+from{box-shadow:1px 1px 38px lightblue;}
+to{box-shadow:1px 1px 38px red;}
+} 
+
+#song_1,#song_2
+{
+    font-size: 25px;
+    color: aliceblue;
+}
